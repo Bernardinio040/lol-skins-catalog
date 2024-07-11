@@ -1,4 +1,4 @@
-import { Answer, ChampionSkinList, Champions } from "../interfaces";
+import { Answer, Champions, SkinList } from "../interfaces";
 
 const root: string = "https://ddragon.leagueoflegends.com/cdn/14.13.1/data/en_US/champion";
 
@@ -19,6 +19,8 @@ async function bringSkins(): Promise<Answer> {
             championsNames.push(key);
         }
 
+        let skinListAnswer: SkinList[] = [];
+
         championsNames.map(async (name: string) => {
             const response: any = await fetch(`${root}/${name}.json`);
 
@@ -30,25 +32,30 @@ async function bringSkins(): Promise<Answer> {
 
             const championInfo: Champions = await response.json();
 
-            const skinList: any[] = [];
+            let skinList: any[] = [];
             for (let key in championInfo.data) {
                 skinList.push(championInfo.data[key].skins)
             }
 
             skinList[0].shift();
-        }) //jakis return wszystkich skinlistow
+
+            const singleChampionSkinList: SkinList = {name: name, skins: skinList[0]};
+            skinListAnswer.push(singleChampionSkinList);
+        })
 
         const data: Answer = {
             message: "Data properly fetched",
             success: true,
-            data: championsNames,
+            data: skinListAnswer,
         };
 
         return data;
+
     } catch (error: any) {
         const errorAnswer: Answer = {
           message: error,
           success: false,
+          data: []
         };
     
         return errorAnswer;

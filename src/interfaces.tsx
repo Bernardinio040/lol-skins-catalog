@@ -1,7 +1,7 @@
 export interface Answer {
     message: string,
     success: boolean,
-    data?: string[]
+    data: SkinList[]
 }
 
 export interface Champions {
@@ -11,7 +11,12 @@ export interface Champions {
     data: any[]
 }
 
-export interface ChampionSkinList {
+export interface SkinList {
     name: string,
     skins: any[]
+}
+
+export interface SkinTileInterface {
+    num: number,
+    name: string
 }
