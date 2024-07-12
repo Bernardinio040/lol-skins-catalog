@@ -1,6 +1,7 @@
-import { Answer, Champions, SkinList } from "../interfaces";
+import { Answer, Answer2, Champions, SkinList } from "../interfaces";
 
 const root: string = "https://ddragon.leagueoflegends.com/cdn/14.13.1/data/en_US/champion";
+const root2: string = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/";
 
 async function bringSkins(): Promise<Answer> {
     try {
@@ -62,4 +63,40 @@ async function bringSkins(): Promise<Answer> {
       }
 }
 
-export default bringSkins;
+async function loadSplashArt(champName: string, num: number): Promise<Answer2> {
+    try {
+        const response: any = await fetch(`${root2}${champName}_${num}.jpg`);
+
+        if (!response.ok) {
+            throw new Error(
+                `Error ${response.status}: Problem encountered retrieving data`
+            );
+        }
+
+        //const rawData: string = await imageToBase64(response.url);
+
+        const data: Answer2 = {
+            message: "Data properly fetched",
+            success: true,
+            data: response.url,
+        };
+
+        return data;
+
+    } catch (error: any) {
+        const errorAnswer: Answer2 = {
+          message: error,
+          success: false,
+          data: ""
+        };
+    
+        return errorAnswer;
+    }
+}
+
+const _ = {
+    bringSkins,
+    loadSplashArt
+}
+
+export default _;

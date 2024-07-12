@@ -1,0 +1,21 @@
+.surfer-design {
+    width: 17%;
+    height: 60%;
+
+    margin: 1em;
+    color: white;
+    font-weight: bold;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.surfer-design:hover {
+    color: black;
+    background-color: #4d84e8;
+}

@@ -4,6 +4,12 @@ export interface Answer {
     data: SkinList[]
 }
 
+export interface Answer2 {
+    message: string,
+    success: boolean,
+    data: string
+}
+
 export interface Champions {
     type: string,
     format: string,
@@ -18,5 +24,12 @@ export interface SkinList {
 
 export interface SkinTileInterface {
     num: number,
-    name: string
+    skinName: string,
+    name: string,
+    id: number
+}
+
+export interface SurferInterface {
+    path: string,
+    destiny: string
 }

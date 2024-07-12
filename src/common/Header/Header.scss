@@ -1,0 +1,35 @@
+
+.header-design {
+    height: 10vh;
+    width: 100vw;
+
+    background-color: #6495ed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.header-buttons-design {
+    height: 100%;
+    width: 75vw;
+}
+
+.logout-design {
+    width: 22.7%;
+}
+
+.logout-design div {
+    width: 100% !important;
+}
