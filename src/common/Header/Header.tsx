@@ -23,14 +23,14 @@ function Header() {
   const navigate = useNavigate();
   return (
     <div className="header-design">
-      <div onClick={() => navigate("/")}>
-        <img className="logo-design" src={logo} width={50} height={50} alt="idk" />
+      <div onClick={() => navigate("/")} className="logo-box-design">
+        <img className="logo-design" src={logo} alt="idk" />
       </div>
 
       {/* {state.auth.token === "" ? ( */}
         <div className="header-buttons-design">
-          <Surfer path={"/login"} destiny={"Login"} />
-          <Surfer path={"/register"} destiny={"Register"} />
+          <Surfer path={"/login"} destiny={"LOGIN"} />
+          <Surfer path={"/register"} destiny={"REGISTER"} />
         </div>
       {/* ) : ( */}
         {/* <div className="header-buttons-design">

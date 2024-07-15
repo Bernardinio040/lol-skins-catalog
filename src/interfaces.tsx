@@ -33,3 +33,7 @@ export interface SurferInterface {
     path: string,
     destiny: string
 }
+
+export interface SearcherInterface {
+    onClick: (letter: string) => void;
+}

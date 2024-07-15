@@ -1,14 +1,14 @@
 import './App.scss'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Header from './common/Header/Header'
-import Home from './pages/Home/Home'
+import Body from './pages/Home/Body/Body'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Home />
+      <Body />
     </>
   )
 }

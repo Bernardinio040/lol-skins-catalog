@@ -1,5 +1,3 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
-
 .container-design {
     padding-top: 5vh;
 }
@@ -15,6 +13,7 @@
     padding: 0 0 0.5em 0;
 
     h4 {
+        font-family: BeaufortforLOL-Medium !important;
         text-align: center;
         color: white;
     }

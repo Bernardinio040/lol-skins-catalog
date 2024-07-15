@@ -1,9 +1,10 @@
-
 .header-design {
-    height: 10vh;
+    height: 6em;
     width: 100vw;
 
-    background-color: #6495ed;
+    background-color: transparent;
+
+    font-size: 25px;
 
     display: flex;
     flex-direction: row;
@@ -11,19 +12,29 @@
     align-items: center;
     gap: 2em;
 
-    div {
+    .logo-box-design {
         display: flex;
         justify-content: center;
     }
 
     img {
+        width: 50%;
+
+        padding-top: 5vh;
+
         cursor: pointer;
     }
 }
 
 .header-buttons-design {
     height: 100%;
-    width: 75vw;
+    width: 60vw;
+
+    margin-right: 10vw;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .logout-design {

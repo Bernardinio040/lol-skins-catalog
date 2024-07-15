@@ -4,9 +4,11 @@ import { Answer, Answer2, SkinList, SkinTileInterface } from '../../interfaces';
 import _ from '../../services/api-calls';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Searcher } from '../../common/Searcher/Searcher';
 
 function Home() {
   const [myData, setMyData] = useState<any[]>([])
+  const [searchLetter, setSearchLetter] = useState<string>('A');
 
   useEffect(() => {
     const fetchLolSkins = async (): Promise<any> => {
@@ -43,26 +45,28 @@ function Home() {
     )
   }
 
-  let counter: number = 0;
-
   return (
+    <>
+      <Searcher onClick={setSearchLetter} />
       <Container className='container-design'>
         <Row>
         {
           myData.map((obj: SkinList, index: number) => {
-              console.log("Champ displayed", obj.name)
-              return <React.Fragment key={index}>
-                {
+              if(obj.name.startsWith(searchLetter)) {
+                console.log("Champ displayed", obj.name)
+                return <React.Fragment key={index}> {
                   obj.skins.map((skin: any) => {
-                    counter++;
                     return <SkinTile num={skin.num} skinName={skin.name} name={obj.name} id={skin.id} key={skin.id} />
                   })
                 }
-              </React.Fragment>
+                </React.Fragment>
+              }
+              
            })
         }
         </Row>
       </Container>
+    </>
   )
 }
 
