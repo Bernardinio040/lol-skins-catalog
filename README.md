@@ -92,13 +92,13 @@ Leauge of Legends skin catalog made with use of the ddragon official Riot Games 
 ### Built With
 
 <!-- * [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url] -->
+* [![React][React.js]][React-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![HTML][html.com]][HTML-url]
 * [![CSS][css.com]][CSS-url]
 
