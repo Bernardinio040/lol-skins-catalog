@@ -1,0 +1,25 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@font-face {
+    font-family: "BeaufortforLOL";
+    src: local("BeaufortforLOL"),
+    url("../public/BeaufortForLoL-OTF/BeaufortforLOL-Bold.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BeaufortforLOL-Medium";
+    src: local("BeaufortforLOL-Medium"),
+    url("../public/BeaufortForLoL-OTF/BeaufortforLOL-Medium.otf") format("opentype");
+}
+
+#root {
+    min-height: 100vh;
+
+    background-size: 100vw 100vh;
+    background-image: url("/background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: BeaufortforLOL;
+}

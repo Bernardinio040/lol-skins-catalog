@@ -1,0 +1,46 @@
+.header-design {
+    height: 6em;
+    width: 100vw;
+
+    background-color: transparent;
+
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    .logo-box-design {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 50%;
+
+        padding-top: 3vh;
+
+        cursor: pointer;
+    }
+}
+
+.header-buttons-design {
+    height: 100%;
+    width: 60vw;
+
+    margin-right: 10vw;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logout-design {
+    width: 22.7%;
+}
+
+.logout-design div {
+    width: 100% !important;
+}

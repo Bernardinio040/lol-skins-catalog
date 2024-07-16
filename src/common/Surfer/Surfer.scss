@@ -1,0 +1,16 @@
+.surfer-design {
+    margin: 1em;
+    color: white;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: rgb(200, 155, 60) !important;
+    }
+}

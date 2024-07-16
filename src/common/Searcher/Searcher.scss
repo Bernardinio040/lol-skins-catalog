@@ -1,0 +1,30 @@
+.searcher-design {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    margin-top: 3vh;
+    padding: 0 5vw;
+}
+
+.letter-design {
+    height: 26px;
+    aspect-ratio: 1/1;
+
+    background-color: rgb(200, 155, 60);
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    border: 1px rgb(200, 155, 60) solid;
+    color: white;
+
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(21, 134, 217);
+    }
+}

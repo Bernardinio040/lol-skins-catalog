@@ -29,11 +29,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Bernardinio040/GeeksHubs-Esmovia">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Bernardinio040/lol-skins-catalog">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Esmovia - Course</h3>
+<h3 align="center">Leauge of Legends <br>Skins catalog</h3>
 
   <!-- <p align="center">
     <br />
@@ -81,9 +81,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]()
 
-Basic HTML page with linked css!¡!¡!¡!¡!¡!¡!
+Leauge of Legends skin catalog made with use of the ddragon official Riot Games API. To do: While being logged in you can make your wishlist of skins.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,13 +92,13 @@ Basic HTML page with linked css!¡!¡!¡!¡!¡!¡!
 ### Built With
 
 <!-- * [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url] -->
+* [![React][React.js]][React-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![HTML][html.com]][HTML-url]
 * [![CSS][css.com]][CSS-url]
 
@@ -122,20 +122,18 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Download all files
-2. Open HTML file to open page
-<!-- 2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
+3. Run project
+   ```sh
+   npm run dev
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +195,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
-Project Link: [https://github.com/Bernardinio040/GeeksHubs-Esmovia](https://github.com/Bernardinio040/GeeksHubs-Esmovia)
+Project Link: [https://github.com/Bernardinio040/lol-skins-catalog](https://github.com/Bernardinio040/lol-skins-catalog)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,19 +214,19 @@ Project Link: [https://github.com/Bernardinio040/GeeksHubs-Esmovia](https://gith
 
 <!-- MARKDOWN LINKS & imgS -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Bernardinio040/GeeksHubs-Esmovia.svg?style=for-the-badge
-[contributors-url]: https://github.com/Bernardinio040/GeeksHubs-Esmovia/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Bernardinio040/GeeksHubs-Esmovia.svg?style=for-the-badge
-[forks-url]: https://github.com/Bernardinio040/GeeksHubs-Esmovia/network/members
-[stars-shield]: https://img.shields.io/github/stars/Bernardinio040/GeeksHubs-Esmovia.svg?style=for-the-badge
-[stars-url]: https://github.com/Bernardinio040/GeeksHubs-Esmovia/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Bernardinio040/GeeksHubs-Esmovia.svg?style=for-the-badge
-[issues-url]: https://github.com/Bernardinio040/GeeksHubs-Esmovia/issues
-[license-shield]: https://img.shields.io/github/license/Bernardinio040/GeeksHubs-Esmovia.svg?style=for-the-badge
-[license-url]: https://github.com/Bernardinio040/GeeksHubs-Esmovia/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Bernardinio040/lol-skins-catalog.svg?style=for-the-badge
+[contributors-url]: https://github.com/Bernardinio040/lol-skins-catalog/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Bernardinio040/lol-skins-catalog.svg?style=for-the-badge
+[forks-url]: https://github.com/Bernardinio040/lol-skins-catalog/network/members
+[stars-shield]: https://img.shields.io/github/stars/Bernardinio040/lol-skins-catalog.svg?style=for-the-badge
+[stars-url]: https://github.com/Bernardinio040/lol-skins-catalog/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Bernardinio040/lol-skins-catalog.svg?style=for-the-badge
+[issues-url]: https://github.com/Bernardinio040/lol-skins-catalog/issues
+[license-shield]: https://img.shields.io/github/license/Bernardinio040/lol-skins-catalog.svg?style=for-the-badge
+[license-url]: https://github.com/Bernardinio040/lol-skins-catalog/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: img/screenshot.png
+[product-screenshot]: public/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

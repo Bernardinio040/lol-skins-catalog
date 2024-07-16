@@ -1,0 +1,25 @@
+.container-design {
+    padding-top: 5vh;
+}
+
+.skin-container-design {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 0 0.5em 0;
+
+    h4 {
+        font-family: BeaufortforLOL-Medium !important;
+        text-align: center;
+        color: white;
+    }
+}
+
+.splash-design {
+    width: 95%;
+    margin-bottom: 0.5em;
+}
