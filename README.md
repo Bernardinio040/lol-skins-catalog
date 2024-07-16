@@ -81,9 +81,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]()
 
-Leauge of Legends skin catalog made with use of the ddragon official Riot Games API. While being logged in you can make your wishlist of skins.
+Leauge of Legends skin catalog made with use of the ddragon official Riot Games API. To do: While being logged in you can make your wishlist of skins.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,20 +122,18 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Download all files
-2. Open HTML file to open page
-<!-- 2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone [https://github.com/github_username/repo_name.git](https://github.com/Bernardinio040/lol-skins-catalog.git)
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
+3. Run project
+   ```sh
+   npm run dev
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
